@@ -1,0 +1,22 @@
+body {
+  background-color: mistyrose;
+}
+
+label {
+	display: block;
+	padding: 10px;
+}
+
+.error{
+	border:1px solid #000;
+	background-color: #CD5C5C;
+	border-radius: 10px;
+	color : #FFF8DC;
+	text-align: center;
+}
+
+.forms{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}							

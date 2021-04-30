@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <h2>Welcome to the Kitchen!</h2>
+    <div class="recipe-app">
+      <div class="login">
+        <label>Username: <input type="text"></label>
+        <button type="button">Login</button>
+      </div>
+      <div class="logged-in">
+        <div class="recipe-detail">
+          <label>Recipe Title: <input type="text"></label><br>
+          <label>Recipe Ingredients:<br><textarea class="ingredientsInput" name="content" rows="4" cols="80"></textarea></label><br>
+          <label>Recipe Detail:<br><textarea class="dirInput" name="content" rows="8" cols="80"></textarea></label><br>
+          <button id="add" type="button">Add</button><br>
+          <button class="return" type="button">Back</button>
+        </div>
+        <div class="newRec">
+          <button id="new"type="button">New Recipe</button>
+          <button id="logOut"type="button">Log out</button>
+        </div>
+      </div>
+      <ul class="recipes"></ul>
+      <div class="errors"></div>
+    </div>
+    <div class="recipe-directions">
+      <div class="det"></div>
+      <button class="back" type="button">Back</button>
+    </div>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="main.js"></script>
+  </body>
+</html>

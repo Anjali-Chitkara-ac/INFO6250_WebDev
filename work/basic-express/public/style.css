@@ -1,0 +1,44 @@
+body {
+	font-family: Sans-serif;
+    background-color: #DCDCDC;
+}
+
+.display-panel{
+	display: flex;
+	justify-content: left;
+}
+
+.users{
+	
+	border:0.5px solid #F0FFFF;
+	border-left: 10px solid #F0FFFF;
+}
+
+.messages{
+	border:0.5px solid #F0FFFF;
+	list-style-type: none;
+
+}
+
+.messages li:nth-child(2n+1) {
+  background-color: #FFE4E1;
+}
+
+.messages li:nth-child(2n) {
+  background-color: #ffa1d4;
+}
+
+button{
+	background-color: #FF1493;
+    border: none;
+    color: #F0FFFF;
+    border-radius: 4px;
+   font-size: 17px;
+   width: 150px;
+}
+
+p{
+/*	background-color: #FF1493;
+*/ color : #808080;
+font-weight: bold;
+}

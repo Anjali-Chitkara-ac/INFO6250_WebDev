@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: #F0FFFF;
+}
+
+#list-app .login.hidden {
+  display: none;
+}
+#list-app .logged-in.hidden {
+  display: none;
+}
+
+.logout {
+  margin-top: 100px;
+}
+
+h2{
+  font-style: italic;
+  font-weight: bold;
+  color: 	#5F9EA0;
+
+}
+
+.sortAsc {
+  margin-top: 15px;
+}
+
+.sortDec {
+  margin-top: 15px;
+}

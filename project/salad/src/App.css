@@ -1,0 +1,124 @@
+div.app{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right : 30%;
+    border:0px solid transparent;
+    color: 	#C12957;
+    background-color: #FFE4E1;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+div.pending{
+  left: 70%;
+}
+
+body {
+  background-color: #DCDCDC;
+}
+
+li.salads:hover {
+	background-color: #C12957;
+	color: #F0FFFF;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.menu{
+  column-count: 3;
+  list-style: none;
+}
+
+.menuItem {
+  position: relative;
+  width: 50%;
+  max-width: 200px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20%;
+  top: 20%;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.menuItem:hover .overlay {
+  opacity: 1;
+}
+
+ul.saladItems{
+  list-style: none;
+}
+
+img.loading{
+  width: 250px;
+  height: 250px;
+}
+
+ul.savedSalads{
+  text-align: left;
+}
+
+.status{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+p{
+  font-size: 18px;
+}
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

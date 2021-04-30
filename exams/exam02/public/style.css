@@ -1,0 +1,46 @@
+.recipe-app .login.hidden {
+  display: none;
+}
+.recipe-app .logged-in.hidden {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+ul{
+	list-style-type: none;
+}
+
+body {
+	font-family: Sans-serif;
+    background-color: #DCDCDC;
+}
+
+li:hover {
+	background-color: #FF1493;
+	color: #F0FFFF;
+}
+
+button{
+	background-color: #FF1493;
+    border: none;
+    color: #F0FFFF;
+    border-radius: 4px;
+   font-size: 17px;
+   width: 150px;
+}
+
+a:hover {
+  color: #F0FFFF;
+}
+
+h2{
+  justify-content: center;
+  color: #FF1493;
+}
+
+.return{
+  margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+body {
+	font-family: Sans-serif;
+    background-color: #FFE4E1;
+}
+
+.form{
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.dict{
+	display: flex;
+	justify-content: right;
+}
+
+.matches{
+	margin-left: 80px;
+}
+
+.win{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+button{
+	background-color: #FF1493;
+    border: none;
+    color: #F0FFFF;
+    border-radius: 4px;
+   font-size: 17px;
+   width: 150px;
+}
+
+.validity{
+	display: flex;
+	justify-content: center;
+}
+
+.turns{
+	display: flex;
+	justify-content: center;
+}
+
+.prev{
+	display: flex;
+	justify-content: left;
+}	
+
+.logout{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}		
